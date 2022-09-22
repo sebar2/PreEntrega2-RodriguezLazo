@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="asset/Styles/Contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+	<!-- menu - header -->
+	<header>
+		<nav class="navegador">
+			<ul class="navegador__lista">
+			    <li><a href="Inicio.html">Inicio</a></li>
+			    <li><a href="SobreMi.html">Sobre mi</a></li>
+			    <li><a href="Servicios.html">Servicios</a>
+                <li><a href="Galeria.html">Galeria</a>
+                <li><a href="Contacto.html">Contacto</a>   
+        	</ul>
+		</nav>	
+        <h1 class="contacto__titulo">Formulario de contacto</h1>
+        <p class="contacto__parrafo">Dejame tus consultas por aqui</p> 
+        <form action="" class="Contacto__Formulario">
+            <div>
+                <label for="Nombre">Nombre</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Carlos">
+            </div>
+            <br>
+            <div>
+                <label for="Apellido">Apellido</label>
+                <br>
+                <input type="text" name="nombre" placeholder="Rodriguez">
+            </div>
+            <br>
+             <div>
+                <label for="Email">Correo electronico</label>
+                <br>
+                <input type="email" id="email" 
+                <br>
+            </div>
+            <div>
+                <label for="Servicios">Selecciona servicio a consultar</label>
+                <select name="Servicios">
+                    <option value="PaginaS Web">Paginas Web</option>
+                    <option value="Aplicaciones">Aplicaciones</option>
+                    <option value="Codigos QR">Codigos QR</option>
+                    <option value="CRM">CRM</option>
+                </select>
+            </div>
+                <br>
+             <div>
+                    <label for="Comentarios">Escriba su mensaje</label>
+                    <br>
+                    <textarea name="Comentarios" id="" cols="30" rows="10"></textarea>
+            <div>
+                <input type="submit" value="Enviar datos">
+            </div>
+        </form>
+        <footer>
+            Derechos reservados 2022
+           </footer>
+    </html>   
+</html>

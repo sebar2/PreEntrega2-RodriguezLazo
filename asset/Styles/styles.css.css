@@ -1,0 +1,28 @@
+body{
+    margin: 15px;
+    background-color: rgb(140, 201, 254);   
+   align-content: center;
+}
+.navegador__lista{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    list-style: none;
+    justify-content: space-around;
+}
+.contacto__titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacto__parrafo{
+    display: flex;
+    justify-content: center;
+}
+
+.Contacto__Formulario{
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+
+  }
